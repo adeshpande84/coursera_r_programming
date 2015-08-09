@@ -1,0 +1,237 @@
+vector()
+x <- vector()
+x
+x <- vector(1,2,3)
+x <- vector(1 2 3)
+x <- c(1,2,3)
+x
+x <- c(1,2,3,3.5,6.7)
+x
+x <- c(1,2,3,5,6)
+x
+x <- c(1,2,3,5,'sdhkjf')
+x
+x <- c('dshfkj',2,3,5,6)
+x
+x <- list('dshfkj',2,3,5,6)
+x
+getwd()
+getwd()
+x
+dimnames(x)
+dimension(x)
+dimensions(x)
+x.dimnaes
+x.dimnames
+x.dimensions
+attributes(x)
+x <- vector()
+x
+attributes(x)
+x <- c('a'=>1)
+x <- c('a'=1)
+x
+attributes(x)
+x <- c('a'=1,'b'=2,'c'=3)
+x
+attributes(x)
+x <- c(1,2,3,length=4)
+x
+x <- vector("numeric",length=4)
+x
+attributes(x)
+x <- c(T,2)
+x
+x <- c(T,"a")
+x
+x <- factor(c("yes","no","no","dont know"))
+x
+unclass(x)
+x
+l <- c("yes","no","dontknow")
+x <- factor(c("yes","no","no","dontknow"),levels<-l)
+x
+unclass(x)
+levels(x)
+y <- list("a","b","c")
+y
+z <- matrix(1:3,4:6)
+z
+x <- c(2,5,3,6)
+x[x>3]
+u <- x>3
+x[u]
+x
+u
+x <- data.frame(foo = 1:4, bar = c(T, T, F, F), col = c("Yes","Yes","No","No"))
+x
+x$foo
+g <- "foo"
+g
+x$g
+x$foo
+x <- c(1, 2, NA, 4, NA, 5)
+x
+bad <- is.na(x)
+bad
+x[!bad]
+x[bad]
+even <- x/2==0
+even
+x <- c(4,TRUE)
+x
+class(x)
+x<-list(1,2,3,4)
+x
+x[[1]]
+x[1]
+x <- read.csv("hw1_data.csv")
+x
+nrow(x)
+ncol(x)
+x[1:2]
+x
+x[2,2]
+x[,2]
+x[,1:2]
+x
+x[,2]
+x[1:2,]
+x[152:153,]
+x[47,'Ozone']
+x[47,'ozone']
+x[47,'Ozone']
+u <- is.na(x)
+u
+x[u]
+u
+x[u]
+x[is.na(x)]
+is.na(x)
+u
+u[,1]
+length(x)
+length(u)
+x
+class(u)
+class(x)
+ncol(x)
+nrow(x)
+na.omit(x)
+x
+nrow(x[1,])
+(x[1,]
+;
+x[1,]
+ncol(x[1,])
+ncol(x[,1])
+nrow(x[,1])
+x[,1]
+length(x[,1])
+is.na(x[,1])
+x(is.na(x[,1]))
+x[is.na(x[,1])]
+na.omit(x[,1])
+y <- na.omit(x[,1])
+y
+length(y)
+is.na(x[,1])
+y <- is.na(x[,1]) == TRUE
+y
+sum(y)
+sum(na.omit(x[,1]))
+sum(na.omit(x[,1])) / (nrow(x[,1]) - sum(y))
+nrow(x[,1])
+sum(na.omit(x[,1])) / (length(x[,1]) - sum(y))
+x["Ozone"]
+x["Temp"]
+x["Ozone">31 & "Temp">90]
+x["Ozone" > 31]
+x["Ozone"] > 31
+class(x["Ozone"] > 31)
+u <- x["Ozone"] > 31
+x[u]
+x["Ozone"] > 31 & x["Temp"] > 90
+x
+subset(x,Temp>90 & Ozone>31,select = c(Solar.R))
+sol <- subset(x,Temp>90 & Ozone>31,select = c(Solar.R))
+sol
+sun(sol)
+sum(sol)
+mean(sol)
+class(sol)
+sum(sol)/length(sol)
+length(sol)
+sum(sol["Solar.R"])
+sum(sol["Solar.R"]) / length(sol["Solar.R"])
+nrow(sol)
+sum(sol)/nrow(sol)
+x$Month
+class(x$Month)
+x[x$Month == 6]
+x[Month > 6]
+sol <- subset(x,Month==6,select = c(Temp))
+sol
+avg(sol)
+sum(sol)/nrow(sol)
+oz <- subset(x,Month==5,select = c(Ozone))
+oz
+max(oz)
+oz[!is.na(oz)]
+max(oz[!is.na(oz)])
+y <- list(2, "a", "b", TRUE)
+y
+y[[1]]
+class(y)
+x
+complete.cases(x)
+x(complete.cases(x))
+x[complete.cases(x)),]
+x[complete.cases(x))][1:153]
+x[complete.cases(x)][1:153]
+x[complete.cases(x)][]
+x[complete.cases(x)]
+x[complete.cases(x),]
+x <- c(1,NA,5,6,NA,8)
+y <- c(NA,"b","c","q",NA)
+complete.cases(x,y)
+y <- c(NA,"b","c","q","t",NA)
+x
+y
+complete.cases(x,y)
+x[complete.cases(x,y)]
+x <- read.csv("hw1_data.csv")
+x
+complete.cases(x)
+x["Month"==6]
+x <- read.csv("hw1_data.csv")
+good <- x["Month"] == 6
+good
+x[good]
+x
+good <- x["Month"] == 6
+good
+x <- c(1,2,3,4,5)
+x
+x > 3
+use <- x > 3
+use
+x[use]
+x <- c("1","3","5","7")
+x
+numeric(x)
+numeric("5")
+numeric(5)
+x <- read.csv("hw1_data.csv")
+x
+c(5)
+numeric(5)
+mean(x[,1])
+mean(x[,1],0,TRUE)
+x[Month=6]
+x[Month]=6
+x[Month]==6
+x[Month] == 6
+x[Month]
+x$Month
+mean(x$Month,0,TRUE)
